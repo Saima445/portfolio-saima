@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Saima Salonen, welcome to my portfolio" />
+    <meta name="author" content="Saima Salonen" />
+    <meta name="keywords" content="HTML, CSS" />
+    <title>Portfolio project</title>
+    <link rel="icon" type="icons/x-icon" href="./icons/scode.png" />
+    <!--tässä tuotu fontti/iconit-->
+    <script
+      src="https://kit.fontawesome.com/e00b2e3114.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="layout.css" />
+  </head>
+  <body>
+    <header id="top">
+      <div class="logoplusname">
+        <figure class="logo">
+          <img src="./icons/scode.png" alt="logo" />
+        </figure>
+        <h2>Saima Salonen</h2>
+      </div>
+      <!--tässä lista, jotka ankkuroitu sivun lohkojen otsikoihin-->
+      <nav class="headerNavStyle">
+        <ul>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#aboutMe">About me</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="#contactMe">Contact me</a></li>
+          <li>
+            <a href="#MoreAboutBCH">More about BHC</a>
+          </li>
+        </ul>
+      </nav>
+      <h1>Welcome to my portfolio</h1>
+    </header>
+    <main>
+      <article>
+        <section id="projects">
+          <h3>Projects</h3>
+          <!--Tässä alkaa sivun CARDS-OSIO-->
+          <div class="projectcardflexes">
+            <div class="card">
+              <figure class="cardpicturesize">
+                <img src="././images/javascript.jpeg" alt="javaScript" />
+              </figure>
+              <p class="bolderfont">Lorem ipsum dolor sit</p>
+              <p class="italicfont">HTML, CSS, Javascript</p>
+              <p><a href="https://www.google.com/">See more</a></p>
+            </div>
+            <div class="card">
+              <figure class="cardpicturesize">
+                <img src="./images/ui.jpeg" alt="uidesign" />
+              </figure>
+              <!-- <div class="container"> -->
+              <p class="bolderfont">Lorem ipsum dolor sit</p>
+              <p class="italicfont">UX design, Layouts</p>
+              <p><a href="https://www.google.com/">See more</a></p>
+              <!-- </div> -->
+            </div>
+            <div class="card">
+              <figure class="cardpicturesize">
+                <img src="./images/koodi.jpg" alt="koodi" />
+              </figure>
+              <!-- <div class="container"> -->
+              <p class="bolderfont">Lorem ipsum dolor sit</p>
+              <p class="italicfont">ReactJS, NodeJS</p>
+              <p><a href="https://www.google.com/">See more</a></p>
+              <!-- </div> -->
+            </div>
+          </div>
+        </section>
+
+        <section class="aboutMe" id="aboutMe">
+          <h3>About me</h3>
+          <figure id="picturesize">
+            <img src="./images/sibelius.jpg" alt="sibelius" />
+          </figure>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex qui,
+            quam praesentium quis nostrum officia distinctio, quae architecto
+            quas optio pariatur ipsa! Inventore, ipsum. Deserunt necessitatibus
+            quos tenetur quidem explicabo modi sapiente unde autem voluptate
+            perferendis maiores ratione, accusantium architecto sit earum
+            minima? Excepturi voluptatibus magnam labore ex cumque, expedita
+            soluta ipsum pariatur blanditiis! Corporis, iusto esse fugit, minima
+            dolor impedit laboriosam quidem amet voluptatum, tempora nesciunt
+            voluptatibus quibusdam labore tenetur nobis! Sequi enim autem, ex
+            eaque temporibus, aliquid in natus doloremque deserunt quibusdam
+            dolor dolorem, corporis necessitatibus omnis eveniet.
+          </p>
+        </section>
+
+        <section id="skills">
+          <h3>Skills</h3>
+          <div class="iconsection">
+            <div class="iconcontainer">
+              <figure>
+                <img src="./icons/html5.svg" alt="html5icon" />
+                <figcaption>HTML5</figcaption>
+              </figure>
+              <progress value="80" max="100">80%</progress>
+            </div>
+            <div class="iconcontainer">
+              <figure>
+                <img src="./icons/css3.svg" alt="css3icon" />
+                <figcaption>CSS3</figcaption>
+              </figure>
+              <progress value="80" max="100">80%</progress>
+            </div>
+            <div class="iconcontainer">
+              <figure>
+                <img src="./icons/java.svg" alt="javaicon" />
+                <figcaption>Java</figcaption>
+              </figure>
+              <progress value="40" max="100">40%</progress>
+            </div>
+            <div class="iconcontainer">
+              <figure>
+                <img src="./icons/python.svg" alt="pythonicon" />
+                <figcaption>Python</figcaption>
+              </figure>
+              <progress value="20" max="100">20%</progress>
+            </div>
+          </div>
+        </section>
+
+        <section class="buttonsection">
+          <button>
+            <a href="#top"><i class="fa-solid fa-arrow-up"></i></a>
+          </button>
+        </section>
+      </article>
+    </main>
+
+    <footer id="contactMe">
+      <h3>Contact me</h3>
+      <div class="contactinput">
+        <form>
+          <div class="labelandinputs">
+            <label for="fname">Your name</label>
+            <input type="text" id="fname" name="fname" />
+          </div>
+          <div class="labelandinputs">
+            <label for="email">Your email</label>
+            <input id="email" type="email" />
+          </div>
+          <div class="labelandinputs">
+            <label for="message">Message to me </label>
+            <textarea id="message"></textarea>
+          </div>
+          <div>
+            <button type="submit">SEND MESSAGE</button>
+          </div>
+        </form>
+      </div>
+      <p id="copyrightsmallfont">Copyright © My Website 2020</p>
+    </footer>
+  </body>
+</html>
