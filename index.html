@@ -6,7 +6,7 @@
     <meta name="description" content="Saima Salonen, welcome to my portfolio" />
     <meta name="author" content="Saima Salonen" />
     <meta name="keywords" content="HTML, CSS" />
-    <title>Portfolio project</title>
+    <title>Portfolio - Saima Salonen</title>
     <link rel="icon" type="icons/x-icon" href="./icons/scode.png" />
     <!--tässä tuotu fontti/iconit-->
     <script
@@ -29,7 +29,22 @@
         <h2>Saima Salonen</h2>
       </div>
       <!--tässä lista, jotka ankkuroitu sivun lohkojen otsikoihin-->
-      <nav class="headerNavStyle">
+      <!--Tässä puhelimen nav näkymä-->
+      <div class="dropdown hidden1">
+        <button class="dropbtn">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="#projects">Projects</a>
+          <a href="#aboutMe">About me</a>
+          <a href="#skills">Skills</a>
+          <a href="gallery.html#gallery">Gallery</a>
+          <a href="#contactMe">Contact me</a>
+          <a href="#top">More about BHC</a>
+        </div>
+      </div>
+      <!-- Tässä normaali nav näkymä -->
+      <nav class="headerNavStyle hidden2">
         <ul>
           <li><a href="#projects">Projects</a></li>
           <li><a href="#aboutMe">About me</a></li>
@@ -37,7 +52,7 @@
           <li><a href="gallery.html">Gallery</a></li>
           <li><a href="#contactMe">Contact me</a></li>
           <li>
-            <a href="#MoreAboutBCH">More about BHC</a>
+            <a href="#moreAboutBCH">More about BHC</a>
           </li>
         </ul>
       </nav>
@@ -53,7 +68,7 @@
               <figure class="cardpicturesize">
                 <img src="././images/javascript.jpeg" alt="javaScript" />
               </figure>
-              <p class="bolderfont">Lorem ipsum dolor sit</p>
+              <h4>Lorem ipsum dolor sit</h4>
               <p class="italicfont">HTML, CSS, Javascript</p>
               <p><a href="https://www.google.com/">See more</a></p>
             </div>
@@ -62,7 +77,7 @@
                 <img src="./images/ui.jpeg" alt="uidesign" />
               </figure>
               <!-- <div class="container"> -->
-              <p class="bolderfont">Lorem ipsum dolor sit</p>
+              <h4>Lorem ipsum dolor sit</h4>
               <p class="italicfont">UX design, Layouts</p>
               <p><a href="https://www.google.com/">See more</a></p>
               <!-- </div> -->
@@ -72,7 +87,7 @@
                 <img src="./images/koodi.jpg" alt="koodi" />
               </figure>
               <!-- <div class="container"> -->
-              <p class="bolderfont">Lorem ipsum dolor sit</p>
+              <h4>Lorem ipsum dolor sit</h4>
               <p class="italicfont">ReactJS, NodeJS</p>
               <p><a href="https://www.google.com/">See more</a></p>
               <!-- </div> -->
@@ -108,14 +123,14 @@
                 <img src="./icons/html5.svg" alt="html5icon" />
                 <figcaption>HTML5</figcaption>
               </figure>
-              <progress value="80" max="100">80%</progress>
+              <progress value="70" max="100">70%</progress>
             </div>
             <div class="iconcontainer">
               <figure>
                 <img src="./icons/css3.svg" alt="css3icon" />
                 <figcaption>CSS3</figcaption>
               </figure>
-              <progress value="80" max="100">80%</progress>
+              <progress value="70" max="100">70%</progress>
             </div>
             <div class="iconcontainer">
               <figure>
@@ -135,8 +150,8 @@
         </section>
 
         <section class="buttonsection">
-          <button>
-            <a href="#top"><i class="fa-solid fa-arrow-up"></i></a>
+          <button onclick="location.href='#top'">
+            <i class="fa-solid fa-arrow-up"></i>
           </button>
         </section>
       </article>
@@ -152,11 +167,11 @@
           </div>
           <div class="labelandinputs">
             <label for="email">Your email</label>
-            <input id="email" type="email" />
+            <input id="email" type="email" required />
           </div>
           <div class="labelandinputs">
             <label for="message">Message to me </label>
-            <textarea id="message"></textarea>
+            <textarea id="message" required></textarea>
           </div>
           <div>
             <button type="submit">SEND MESSAGE</button>

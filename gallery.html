@@ -6,7 +6,7 @@
     <meta name="description" content="Saima Salonen, welcome to my portfolio" />
     <meta name="author" content="Saima Salonen" />
     <meta name="keywords" content="HTML, CSS" />
-    <title>Portfolio project</title>
+    <title>Portfolio - Saima Salonen</title>
     <link rel="icon" type="icons/x-icon" href="./icons/scode.png" />
     <!--tässä tuotu fontti/iconit-->
     <script
@@ -29,10 +29,10 @@
         </figure>
         <h2>Saima Salonen</h2>
       </div>
-      <!--tässä lista, jotka ankkuroitu sivun lohkojen otsikoihin-->
+      <!--Tässä puhelimen nav näkymä-->
       <div class="dropdown hidden1">
-        <button class="dropbtn"> 
-            <i class="fa-solid fa-bars"></i>
+        <button class="dropbtn">
+          <i class="fa-solid fa-bars"></i>
         </button>
         <div class="dropdown-content">
           <a href="index.html#projects">Projects</a>
@@ -40,9 +40,10 @@
           <a href="index.html#skills">Skills</a>
           <a href="gallery.html#gallery">Gallery</a>
           <a href="#contactMe">Contact me</a>
-          <a href="index.html#moreAboutBCH">More about BHC</a>
+          <a href="index.html#top">More about BHC</a>
         </div>
-      </div> 
+      </div>
+      <!-- Tässä normaali nav näkymä -->
       <nav class="headerNavStyle hidden2">
         <ul>
           <li><a href="index.html#projects">Projects</a></li>
@@ -88,7 +89,7 @@
       </section>
       <section class="text-area">
         <p>Images from: <a href="https://unsplash.com//">Unsplash</a></p>
-      <section>
+      </section>
     </main>
     <footer id="contactMe">
       <h3>Contact me</h3>
@@ -100,11 +101,11 @@
           </div>
           <div class="labelandinputs">
             <label for="email">Your email</label>
-            <input id="email" type="email" />
+            <input id="email" type="email" required />
           </div>
           <div class="labelandinputs">
             <label for="message">Message to me </label>
-            <textarea id="message"></textarea>
+            <textarea id="message" required></textarea>
           </div>
           <div>
             <button type="submit">SEND MESSAGE</button>
