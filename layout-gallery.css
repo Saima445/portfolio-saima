@@ -1,6 +1,6 @@
 header {
   background-image: none;
-  background-color: whitesmoke;
+  background-color: var(--headingbasecolor);
   min-height: 0;
   justify-content: space-between;
 }
@@ -14,10 +14,10 @@ section {
 }
 .text-area a {
   text-decoration: none;
-  color: rgb(201, 206, 44);
+  color: var(--linkcolor);
 }
 .text-area a:hover {
-  color: red;
+  color: var(--hovercolor);
 }
 .grid-container figure {
   margin: 0.3rem;
@@ -155,7 +155,7 @@ section {
 
   .dropdown-content a:hover {
     background-color: #f8f0e1;
-    color: red;
+    color: var(--hovercolor);
   }
 
   .dropdown:hover .dropdown-content {
