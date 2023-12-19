@@ -156,7 +156,7 @@ nav.headerNavStyle {
   font-weight: 300;
 }
 .headerNavStyle a:hover {
-  color: var(--hovercolor); /* Kaikkien linkkien hoverit punaiset */
+  color: var(--hovercolor);
 }
 
 /*KORTTIEN MUOKKAUKSIA*/
@@ -170,7 +170,6 @@ nav.headerNavStyle {
   max-width: 100%;
 }
 .card {
-  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); */
   border: 1px solid darkgray;
   transition: 0.3s;
   padding: 1rem;
@@ -366,8 +365,6 @@ button:hover {
     justify-content: center;
   }
   #backToTopBtn {
-    /* border: none;
-    border-radius: 4px; */
     height: 2.5rem;
     width: 2.5rem;
     bottom: 2rem;
@@ -384,13 +381,15 @@ button:hover {
     flex-wrap: wrap;
     align-items: flex-start;
   }
-  .aboutMe img {
-    float: none;
-    margin: 0 0 1rem 0;
-  }
+
+  .card,
   .aboutMe figure,
   p {
     text-align: center;
+  }
+  .aboutMe img {
+    float: none;
+    margin: 0 0 1rem 0;
   }
 
   footer {
