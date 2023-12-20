@@ -6,11 +6,15 @@ header {
 }
 
 section {
-  padding: 7rem 7rem 0 7rem;
+  padding: 0 0 0 0;
+}
+.area {
+  width: 90%;
+  margin: auto;
+  padding: 4rem 0;
 }
 .text-area {
-  padding: 0 7rem 7rem 7rem;
-  margin-block-start: 1rem;
+  padding: 1rem 0 0 0;
 }
 .text-area a {
   text-decoration: none;
@@ -19,9 +23,7 @@ section {
 .text-area a:hover {
   color: var(--hovercolor);
 }
-.grid-container figure {
-  margin: 0.3rem;
-}
+
 .grid-container figure img {
   max-width: 100%;
   object-fit: cover;
@@ -29,10 +31,10 @@ section {
   height: 100%;
 }
 .grid-container {
-  max-height: 80rem;
   display: grid;
-  grid-template-columns: repeat(12, 8.33%);
-  grid-template-rows: repeat(12, 8.33%);
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(12, 7vw);
+  grid-gap: 0.7rem;
 }
 
 #chalkboard {
@@ -170,5 +172,10 @@ section {
   }
   .dropdown .dropbtn {
     font-size: 2rem;
+  }
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(12, 5vw);
   }
 }
