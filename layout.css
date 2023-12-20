@@ -109,7 +109,7 @@ p {
 
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2)),
-    url("images/metsä.jpeg");
+    url("images/metsa.jpeg");
   padding: 3rem;
   /* Parallax scrolling headeriin */
   min-height: 70rem;
