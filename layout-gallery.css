@@ -137,7 +137,7 @@ section {
 
   .dropdown-content {
     display: none;
-    position: absolute;
+    position: fixed;
     background-color: white;
     font-size: 1.6rem;
     min-width: fit-content;
