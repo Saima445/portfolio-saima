@@ -332,6 +332,62 @@ button:hover {
     justify-content: center;
   }
 }
+
+/* väliscreen hamburger menu esiin */
+@media only screen and (max-width: 895px) {
+  .hidden2 {
+    display: none;
+  }
+  .hidden1 {
+    display: block;
+  }
+
+  .dropdown {
+    overflow: hidden;
+    order: 2;
+  }
+
+  .dropdown .dropbtn {
+    font-size: 2rem;
+    border: none;
+    outline: none;
+    color: inherit;
+    background-color: inherit;
+    font-family: inherit;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    font-size: 1.6rem;
+    min-width: fit-content;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 1);
+    z-index: 1;
+    right: 0;
+    top: 6rem;
+    right: 2rem;
+  }
+
+  .dropdown-content a {
+    float: none;
+    color: #333333;
+    padding: 2rem;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+  }
+
+  .dropdown-content a:hover {
+    background-color: #f8f0e1;
+    color: var(--hovercolor);
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+}
+
 /* väliscreen */
 @media only screen and (max-width: 440px) {
   .iconcontainer {
@@ -342,6 +398,13 @@ button:hover {
 /* Mobiili */
 @media only screen and (max-width: 425px) {
   header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2)),
+      url("./images/metsamobiili.jpg");
+    /* Parallax scrolling headeriin */
+    /* background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; */
     padding: 2rem 1rem 20rem 1rem;
     min-height: 50rem;
     display: flex;
@@ -373,6 +436,7 @@ button:hover {
 
   #backToTopBtn i {
     font-size: 1.5rem;
+    right: 0.4rem;
   }
   section {
     padding: 5rem 2rem;
@@ -411,7 +475,7 @@ button:hover {
   label {
     margin-block-end: 1rem;
   }
-  .hidden2 {
+  /* .hidden2 {
     display: none;
   }
   .hidden1 {
@@ -461,5 +525,5 @@ button:hover {
 
   .dropdown:hover .dropdown-content {
     display: block;
-  }
+  } */
 }
