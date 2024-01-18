@@ -396,6 +396,9 @@ button:hover {
       url("./images/metsamobiili.jpg");
     /* Poistetaan parallax scrolling headerista */
     background-attachment: scroll;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     min-height: 50rem;
   }
 }
