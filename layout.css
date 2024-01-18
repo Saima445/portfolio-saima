@@ -390,16 +390,15 @@ button:hover {
 
 /* väliscreen */
 @media only screen and (max-width: 440px) {
-  .iconcontainer {
-    margin: 0 0.3rem 2rem 0.4rem;
+  header {
     background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2)),
       url("./images/metsamobiili.jpg");
     /* Poistetaan parallax scrolling headerista */
     background-attachment: scroll;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
     min-height: 50rem;
+  }
+  .iconcontainer {
+    margin: 0 0.3rem 2rem 0.4rem;
   }
 }
 
@@ -435,7 +434,7 @@ button:hover {
     text-align: center;
   }
 
-  #backToTopBtn i {
+  button #backToTopBtn i {
     font-size: 1.2rem;
     right: 0.5rem;
   }
