@@ -431,12 +431,11 @@ button:hover {
     width: 2.5rem;
     bottom: 2rem;
     right: 0.3rem;
-    text-align: center;
   }
 
   button #backToTopBtn i {
     font-size: 1.2rem;
-    right: 0.5rem;
+    right: 0.4rem;
   }
   section {
     padding: 5rem 2rem;
