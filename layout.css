@@ -392,16 +392,16 @@ button:hover {
 @media only screen and (max-width: 440px) {
   .iconcontainer {
     margin: 0 0.3rem 2rem 0.4rem;
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2)),
+      url("./images/metsamobiili.jpg");
+    /* Ppoistetaan parallax scrolling headeriin */
+    background-attachment: scroll;
   }
 }
 
 /* Mobiili */
 @media only screen and (max-width: 425px) {
   header {
-    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2)),
-      url("./images/metsamobiili.jpg");
-    /* Parallax scrolling headeriin */
-    background-attachment: scroll;
     padding: 2rem 1rem 20rem 1rem;
     min-height: 50rem;
     display: flex;
@@ -429,11 +429,11 @@ button:hover {
     width: 2.5rem;
     bottom: 2rem;
     right: 0.3rem;
+    text-align: center;
   }
 
   #backToTopBtn i {
-    font-size: 1.5rem;
-    right: 0.4rem;
+    font-size: 1.2rem;
   }
   section {
     padding: 5rem 2rem;
