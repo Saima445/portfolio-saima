@@ -394,8 +394,9 @@ button:hover {
     margin: 0 0.3rem 2rem 0.4rem;
     background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2)),
       url("./images/metsamobiili.jpg");
-    /* Ppoistetaan parallax scrolling headeriin */
+    /* Poistetaan parallax scrolling headerista */
     background-attachment: scroll;
+    min-height: 50rem;
   }
 }
 
@@ -403,7 +404,6 @@ button:hover {
 @media only screen and (max-width: 425px) {
   header {
     padding: 2rem 1rem 20rem 1rem;
-    min-height: 50rem;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
