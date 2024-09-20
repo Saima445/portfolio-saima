@@ -17,7 +17,9 @@ Portfoliosivun tarkoituksena on tarjota selkeä, responsiivinen ja visuaalisesti
 
 ## Kuvat esimerkkisivusta, jonka mukaan omat sivut piti rakentaa
 
-(Liitä tänne esimerkkisivun kuvatiedostot.)
+![Portfolio-sivun näyttökuva](./images/portfolio_example.png)
+
+![Portfolio-sivun näyttökuva](./images/portfolio_example_gallery.png)
 
 ## Käytetyt teknologiat
 
