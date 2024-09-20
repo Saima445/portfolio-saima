@@ -15,6 +15,10 @@ Portfoliosivun tarkoituksena on tarjota selkeä, responsiivinen ja visuaalisesti
 - **Fontit ja ikonit**: Erilaisten web-fonttien ja ikonien käyttö, esimerkiksi Google Fonts ja Font Awesome.
 - **Formit**: Yhteydenottolomakkeen luominen syötteineen ja validointeineen.
 
+## Live Demo
+
+Voit katsoa portfoliosivuston livenä täältä: [Portfolio-sivusto](https://saima445.github.io/portfolio-saima)
+
 ## Kuvat esimerkkisivusta
 
 ![Portfolio-sivun näyttökuva](./images/portfolio_example.png)
@@ -25,10 +29,6 @@ Portfoliosivun tarkoituksena on tarjota selkeä, responsiivinen ja visuaalisesti
 
 - **HTML5**: Sivun rakenteen ja sisällön luomiseen.
 - **CSS3**: Sivuston tyylittelyyn ja responsiivisuuden toteuttamiseen.
-
-## Live Demo
-
-Voit katsoa portfoliosivuston livenä täältä: [Portfolio-sivusto](https://saima445.github.io/portfolio-saima)
 
 ## Lopputulos omista sivuista
 
