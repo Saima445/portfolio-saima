@@ -32,4 +32,6 @@ Voit katsoa portfoliosivuston livenä täältä: [Portfolio-sivusto](https://sai
 
 ## Näyttökuvat rakentamistani sivuista
 
-(Liitä näyttökuvia omasta sivustostasi tähän.)
+![Portfolio-sivun näyttökuva](./images/portfolio-front_page.png)
+
+![Portfolio-sivun näyttökuva](./images/portfolio-gallery_page.png)
