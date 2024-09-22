@@ -1,4 +1,4 @@
-# Portfolio Project
+# Portfolio project
 
 This was my first school project, with the main focus on practicing skills with **HTML5** and **CSS3**. The objective was to create a personal portfolio website, built to closely match example pages (screenshots attached). While the overall structure was guided, I had the freedom to choose my own images and colors.
 
