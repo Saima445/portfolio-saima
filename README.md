@@ -1,37 +1,37 @@
-# Portfolio-projekti
+# Portfolio Project
 
-Tämä on ensimmäinen kouluprojektini, jossa pääpaino oli harjoitella taitoja **HTML5**:n ja **CSS3**:n parissa. Projektin tarkoituksena oli luoda henkilökohtainen portfoliosivusto, joka on rakennettu mahdollisimman samanlaisena kuin esimerkkisivut (kuvat liitteenä). Kuvia ja värejä sai vaihdella oman maun mukaan.
+This was my first school project, with the main focus on practicing skills with **HTML5** and **CSS3**. The objective was to create a personal portfolio website, built to closely match example pages (screenshots attached). While the overall structure was guided, I had the freedom to choose my own images and colors.
 
-## Projektin yleiskuvaus
+## Project overview
 
-Portfoliosivun tarkoituksena on tarjota selkeä, responsiivinen ja visuaalisesti houkutteleva asettelu, jonka avulla esitellään eri elementtien käyttöä HTML- ja CSS-menetelmillä. Harjoittelin erityisesti seuraavia taitoja:
+The purpose of this portfolio page is to provide a clean, responsive, and visually appealing layout that showcases the use of various HTML and CSS techniques. During this project, I specifically worked on the following skills:
 
-- **HTML5-rakenne**: Sivun perusrakenne, otsikot, kappaleet, kuvat ja linkit.
-- **CSS Flexbox**: Layoutin toteuttaminen joustavasti eri laitteille, elementtien kohdistaminen ja rivittäminen.
-- **CSS Grid**: Monimutkaisempien asettelujen luominen grid-pohjaisilla menetelmillä.
-- **Responsiivinen suunnittelu**: Media queryjen käyttö, jotta sivu skaalautuu eri kokoisille näytöille (mobiili, tabletti, desktop).
-- **Navigointivalikot**: Yksinkertaisen ja responsiivisen navigointivalikon luominen, joka sisältää myös dropdown-ominaisuudet.
-- **Animaatiot ja siirtymät**: Perus CSS-animointien ja hover-efektien lisääminen, kuten elementtien liukuvat siirtymät ja napit, jotka reagoivat käyttäjän toimintaan.
-- **Fontit ja ikonit**: Erilaisten web-fonttien ja ikonien käyttö, esimerkiksi Google Fonts ja Font Awesome.
-- **Formit**: Yhteydenottolomakkeen luominen syötteineen ja validointeineen.
+- **HTML5 structure**: Basic page structure, including headings, paragraphs, images, and links.
+- **CSS flexbox**: Creating flexible layouts for different devices, aligning and wrapping elements.
+- **CSS grid**: Building more complex layouts using grid-based methods.
+- **Responsive design**: Utilizing media queries to ensure the page scales properly for different screen sizes (mobile, tablet, desktop).
+- **Navigation menus**: Designing a simple, responsive navigation bar with dropdown functionality.
+- **Animations and transitions**: Adding basic CSS animations and hover effects, such as sliding transitions and interactive buttons.
+- **Fonts and icons**: Integrating various web fonts and icons, such as Google Fonts and Font Awesome.
+- **Forms**: Building a contact form with inputs and validations.
 
 ## Live demo
 
-Voit katsoa portfoliosivuston livenä täältä: [Portfolio-sivusto](https://saima445.github.io/portfolio-saima)
+You can view the portfolio website live here: [Portfolio website](https://saima445.github.io/portfolio-saima)
 
-## Kuvat esimerkkisivusta
+## Example page screenshots
 
-![Portfolio-sivun näyttökuva](./images/portfolio_example.png)
+![Portfolio Example Screenshot](./images/portfolio_example.png)
 
-![Portfolio-sivun näyttökuva](./images/portfolio_example_gallery.png)
+![Portfolio Example Screenshot](./images/portfolio_example_gallery.png)
 
-## Käytetyt teknologiat
+## Technologies Used
 
-- **HTML5**: Sivun rakenteen ja sisällön luomiseen.
-- **CSS3**: Sivuston tyylittelyyn ja responsiivisuuden toteuttamiseen.
+- **HTML5**: For structuring the page and its content.
+- **CSS3**: For styling and implementing responsiveness.
 
-## Lopputulos omista sivuista
+## Final Outcome of My Pages
 
-![Portfolio-sivun näyttökuva](./images/portfolio-front_page.png)
+![Portfolio Screenshot](./images/portfolio-front_page.png)
 
-![Portfolio-sivun näyttökuva](./images/portfolio-gallery_page.png)
+![Portfolio Screenshot](./images/portfolio-gallery_page.png)
