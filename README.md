@@ -25,12 +25,12 @@ You can view the portfolio website live here: [Portfolio website](https://saima4
 
 ![Portfolio Example Screenshot](./images/portfolio_example_gallery.png)
 
-## Technologies Used
+## Technologies used
 
 - **HTML5**: For structuring the page and its content.
 - **CSS3**: For styling and implementing responsiveness.
 
-## Final Outcome of My Pages
+## Final outcome of my pages
 
 ![Portfolio Screenshot](./images/portfolio-front_page.png)
 
