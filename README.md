@@ -19,7 +19,7 @@ The purpose of this portfolio page is to provide a clean, responsive, and visual
 
 You can view the portfolio website live here: [Portfolio website](https://saima445.github.io/portfolio-saima)
 
-## Example page screenshots
+## Example page
 
 ![Portfolio Example Screenshot](./images/portfolio_example.png)
 
